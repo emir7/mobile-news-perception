@@ -29,7 +29,7 @@ df <- read.csv('data.csv', header=TRUE)
       - Label *L1* represents dark environments and groups sensor values
         which are lying between 0 lux and 20 lux.
       - Label *L2* represents public areas with dark surroundings and
-        groups sensor lying between 20 lux and 50 lux.
+        groups sensor values lying between 20 lux and 50 lux.
       - Label *L3* represents surroundings smillar to family living
         rooms and groups sensor values ranging from 50 lux to 100 lux
       - Label *L4* in our case represents bright environments and
@@ -116,4 +116,3 @@ coefficients(final.model)
     ## 
     ## attr(,"class")
     ## [1] "coef.mer"
-
