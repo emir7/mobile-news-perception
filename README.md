@@ -27,7 +27,7 @@ File *mlData.csv* is built upon the *rawData.csv* file and contains 6 feature co
 ## Description of datasets collected in the second study
 The goal of the first part of our second study was to personalize existing general predictive models using multiple active learning strategies and the UCB algorithm, whilst the goal of the second part was to evaluate whether the personalized model achieved greater performance or not. 
 
-Both datasets (of the first and the second part of our study) named *data.csv* are inside subfolders */Part1* and */Part2*. They conists of the following columns:
+Both datasets (of the first and the second part of our study) named as *data.csv* are inside subfolders */Part1* and */Part2*. They conists of the following columns:
 
 * Column *user_id* represents an identifier of a specific user
 * Columns: *user_activity*, *environmental_brightness*, *theme*, *layout*, *fontSize* are the same as in our *mlData.csv* file.
