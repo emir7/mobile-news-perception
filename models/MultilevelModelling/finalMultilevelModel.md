@@ -19,7 +19,7 @@ df <- read.csv('data.csv', header=TRUE)
 
   - The column named as *layout\_images* was added to the original
     *rawData.csv*. It represents a combination of the two most
-    informative view parameters: *images* and *layout*. Previously mentioned column contains following values:
+    informative view parameters: *images* and *layout*. The *layout\_images* column contains following values:
 
       - *gw* - representing *gridView* layout with images
       - *ln* - representing *largeCards* layout without images
