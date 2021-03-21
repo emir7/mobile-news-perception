@@ -124,3 +124,5 @@ coefficients(final.model)
     ## 
     ## attr(,"class")
     ## [1] "coef.mer"
+
+The lme4 package also contains a *predict* function which accepts as an argument a specific multilevel model and a dataframe row. In our case using the predict function our model is able to calculate the final user's view assessment depending on the contextual and UI related parameters.  
