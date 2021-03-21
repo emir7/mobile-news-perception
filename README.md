@@ -1,5 +1,7 @@
 # Mobile news perception: Datasets & Models
 
+# Data
+
 Folder */data* contains two seperate datasets representing contextual parameters, UI related parameters, and the correspodning user's answers gathered through the ESM questionnaires. Previously mentioned datasets are organized in the following folder structure:
 
 * The first subfolder named as *Study1* contains two seperated *.csv* files which were used in our statistical Multilevel model analysis followed by building multiple general predictive models. 
@@ -34,3 +36,11 @@ Both datasets (of the first and the second part of our study) named as *data.csv
 * Coulmn *feedback* represents whether the user was satified with the configured UI or not (values labled as *Y* indicate positive instances, whilst instances marked as *N* are negative).
 The *feedback* column is also the only one that differ for both *data.csv* files inside subfolders */Part1* and */Part2* due to the fact that two different methodolgies were used whilst gathering the data. 
 In the first part of the second study the UCB algorithm, with the help of a selected active learning strategy, decided whether to query a user or not. User's feedback was not retrieved when a user did not change the configured UI whilst the active learning strategy decided that querying a user is not neccessary. In such cases we labeled the instances with a question mark, meaning that we can not guarantee the user was satisfied with the configured UI correspodning to the current context of use. However, in the second part of our study with the probability of *50%* we decided whether querying the user is required, therefore there are only two options for labeling the *feedback* column (Y - user is satisfied with the configured UI or N - user is not satisfied with the configured UI).  
+
+# Models
+
+Folder */models* contains two seperate subfolders. 
+
+* The first folder */MultilevelModelling* contains a *.md* file which is automatically generated using the *RStudio* IDE and  contains all the information related to our finally built multilevel model.
+* The second folder */PredictiveModelling* contains an *.ipynb* file containing the models built using *sklearn* library. The general predicitve model which was used in our final Android application was built using the *Random Forest* algorithm. 
+
