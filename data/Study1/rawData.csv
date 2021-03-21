@@ -1,4 +1,4 @@
-user_activity,environmental_brightness,screen_brightness,time_of_day,internet_speed, battery_level,images,theme, layout,font_size,reference, readability,informativness
+user_activity,environmental_brightness,screen_brightness,time_of_day,internet_speed, battery_level,images,theme, layout,font_size,preference,readability,informativness
 STILL,5,79,17,2,93,withImages,dark-theme,largeCards,small-font,1,1,1
 STILL,5,79,17,2,93,withImages,dark-theme,largeCards,small-font,1,1,1
 STILL,5,79,17,2,93,withImages,dark-theme,gridView,small-font,1,2,1
