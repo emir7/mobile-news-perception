@@ -29,7 +29,7 @@ df <- read.csv('data.csv', header=TRUE)
       - *xw* - representing *xLargeCards* without images
 
 
-  - For the purpose of observing users behaviour whilst using different
+  - For the purpose of observing users behaviour whilst using a different
     application theme in different levels of environemntal brightness we
     have categorized *enviornmental\_brightness* parameter into 4
     different categories:
@@ -43,14 +43,12 @@ df <- read.csv('data.csv', header=TRUE)
       - Label *L4* in our case represents bright environments and
         contains values greater than 100 lux.
 
-With gradually increasing the complexity of multilevel models (as
+While gradually increasing the complexity of multilevel models (as
 described in our paper: Uncovering Personal and Context-Dependent
 Display Preferences in Mobile Newsreader App) we concluded that the
 following model can be used for describing the relationships between
 contextual and news display
 parameters:
-
-# Building the final model
 
 ``` r
 final.model <- lmer(score ~ 1 + user.activity*font.size + theme*env.brightness + theme*battery.level + (1|layout_images), data=df)
