@@ -26,7 +26,7 @@ df <- read.csv('data.csv', header=TRUE)
       - *lw* - representing *largeCards* layout with images
       - *mw* - representing *miniCards* layout with images
       - *xn* - representing *xLargeCards* without images
-      - *xw* - representing *xLargeCards* without images
+      - *xw* - representing *xLargeCards* with images
 
 
   - For the purpose of observing users behaviour whilst using a different
