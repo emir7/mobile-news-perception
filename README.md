@@ -16,7 +16,7 @@ File *rawData.csv* consists of 836 rows each containing 13 columns:
 * Column *screen_brightness* is represented by the current brightness level of the screen whilst users were reading the news. It can take a value ranging from 0 to 255.
 * Column *time_of_day* holds an integer value which represents the current hour whilst users were reading the news.
 * Column *internet_speed* is represented by a value ranging from 0 to 2. Datapoints were gathered using the Android's WifiManager class containing a method called as *calculateSignalLevel(int rssi)* which returns the RSSI signal quality rating using the system default RSSI quality rating thresholds. 
-For the users connected to the cellular network we checked the internet connectivity type (in our case 2G network represented the lowest possible interneed speed, whilst the 4G network was labled as the highest one).
+For the users connected to the cellular network we checked the internet connectivity type (in our case 2G network represented the lowest possible internet speed, whilst the 4G network was labled as the highest one).
 * Column *batery_level* is represented with the value of user's current battery percentage. 
 * Column *images* contains a value representing whether the user turned the image rendering on or off. 
 * Column *theme* contains a value represending whether the user was using dark or light theme whilst reading the news.
@@ -41,6 +41,6 @@ In the first part of the second study the UCB algorithm, with the help of a sele
 
 Folder */models* contains two seperate subfolders. 
 
-* The first folder */MultilevelModelling* contains a *.md* file which is automatically generated using the *RStudio* IDE and  contains all the information related to our finally built multilevel model.
+* The first folder */MultilevelModelling* contains a *.md* file which is automatically generated using the *RStudio* IDE and  contains all the information related to our final multilevel model.
 * The second folder */PredictiveModelling* contains an *.ipynb* file containing the models built using *sklearn* library. The general predicitve model which was used in our final Android application was built using the *Random Forest* algorithm. 
 
